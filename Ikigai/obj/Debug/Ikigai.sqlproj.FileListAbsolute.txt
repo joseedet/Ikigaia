@@ -1,0 +1,9 @@
+/home/morgan/Documentos/Ikigaia/Ikigai/bin/Debug/Ikigai.dacpac
+/home/morgan/Documentos/Ikigaia/Ikigai/bin/Debug/Ikigai.dll
+/home/morgan/Documentos/Ikigaia/Ikigai/bin/Debug/Ikigai.pdb
+/home/morgan/Documentos/Ikigaia/Ikigai/obj/Debug/Model.xml
+/home/morgan/Documentos/Ikigaia/Ikigai/obj/Debug/refactor.xml
+/home/morgan/Documentos/Ikigaia/Ikigai/obj/Debug/postdeploy.sql
+/home/morgan/Documentos/Ikigaia/Ikigai/obj/Debug/predeploy.sql
+/home/morgan/Documentos/Ikigaia/Ikigai/obj/Debug/Ikigai.dll
+/home/morgan/Documentos/Ikigaia/Ikigai/obj/Debug/Ikigai.pdb

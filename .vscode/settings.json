@@ -1,0 +1,22 @@
+{
+    "dataworkspace.excludedProjects": [
+        "Ikigai/Ikigai.sqlproj"
+    ],
+    "sqltools.connections": [
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "askForPassword": true,
+            "driver": "MSSQL",
+            "name": "Ikigai",
+            "database": "Ikigai",
+            "username": "sa"
+        }
+    ]
+}

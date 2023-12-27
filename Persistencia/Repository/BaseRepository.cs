@@ -41,12 +41,12 @@ namespace Persistencia.Repository
                 return _context.Set<TEntity>().Where(predicate).AsQueryable();
         }
 
-        public virtual async Task<TEntity?> GetByIdAsync<TId>(TId id, CancellationToken cancellationToken = default) where TId : notnull
+        public virtual async Task<TEntity> GetByIdAsync<TId>(TId id, CancellationToken cancellationToken = default) where TId : notnull
         {
             return await _context.Set<TEntity>().FindAsync(new object[] { id }, cancellationToken: cancellationToken);
         }
 
-        public virtual async Task<TEntity?> GetBySpecAsync<Spec>(Expression<Func<TEntity, bool>> predicate, CancellationToken cancellationToken = default)
+        public virtual async Task<TEntity> GetBySpecAsync<Spec>(Expression<Func<TEntity, bool>> predicate, CancellationToken cancellationToken = default)
         {
             return await _context.Set<TEntity>().FirstOrDefaultAsync(predicate, cancellationToken);
         }
