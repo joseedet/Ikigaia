@@ -20,9 +20,9 @@ namespace Persistencia
 
 
             public DbSet<Planin> Agendas => Set <Planin>();
-            public DbSet<Cliente>Clientes => Set <Cliente>();
-            public DbSet<DetalleCliente>DetalleClientes => Set <DetalleCliente>();
-            public DbSet<Tipo>Tipos => Set <Tipo>();
+            public DbSet<Cliente> Clientes => Set <Cliente>();
+            public DbSet<DetalleCliente> DetalleClientes => Set <DetalleCliente>();
+            public DbSet<Tipo> Tipos => Set <Tipo>();
             
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
@@ -74,7 +74,7 @@ namespace Persistencia
         {
                 try
             {
-                _currentTransaction?.Rollback();
+                _currentTransaction.Rollback();
             }
             finally
             {
