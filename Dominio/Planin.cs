@@ -23,5 +23,9 @@ namespace Dominio
         [ForeignKey("ClienteId")]
         public required Cliente Cliente { get; set; }
 
+        List<DetalleCliente> DetalleClientesPlanin {get;set;}
+
+        
+
     }
 }

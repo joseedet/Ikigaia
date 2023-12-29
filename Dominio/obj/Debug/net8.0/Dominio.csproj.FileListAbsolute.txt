@@ -1,0 +1,13 @@
+/home/morgan/Documentos/Ikigaia/Dominio/bin/Debug/net8.0/Dominio.deps.json
+/home/morgan/Documentos/Ikigaia/Dominio/bin/Debug/net8.0/Dominio.dll
+/home/morgan/Documentos/Ikigaia/Dominio/bin/Debug/net8.0/Dominio.pdb
+/home/morgan/Documentos/Ikigaia/Dominio/obj/Debug/net8.0/Dominio.csproj.AssemblyReference.cache
+/home/morgan/Documentos/Ikigaia/Dominio/obj/Debug/net8.0/Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/home/morgan/Documentos/Ikigaia/Dominio/obj/Debug/net8.0/Dominio.AssemblyInfoInputs.cache
+/home/morgan/Documentos/Ikigaia/Dominio/obj/Debug/net8.0/Dominio.AssemblyInfo.cs
+/home/morgan/Documentos/Ikigaia/Dominio/obj/Debug/net8.0/Dominio.csproj.CoreCompileInputs.cache
+/home/morgan/Documentos/Ikigaia/Dominio/obj/Debug/net8.0/Dominio.sourcelink.json
+/home/morgan/Documentos/Ikigaia/Dominio/obj/Debug/net8.0/Dominio.dll
+/home/morgan/Documentos/Ikigaia/Dominio/obj/Debug/net8.0/refint/Dominio.dll
+/home/morgan/Documentos/Ikigaia/Dominio/obj/Debug/net8.0/Dominio.pdb
+/home/morgan/Documentos/Ikigaia/Dominio/obj/Debug/net8.0/ref/Dominio.dll

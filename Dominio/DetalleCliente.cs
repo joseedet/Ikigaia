@@ -17,9 +17,19 @@ namespace Dominio
         [ForeignKey("ClienteId")]
         public Cliente  Cliente { get; set; }
 
-        public int PlainId { get; set; }
+        public int PlaninId { get; set; }
 
-        [ForeignKey("PlainId")]
+        [ForeignKey("PlaninId")]
         public Planin  Planin  { get; set; }
+
+        public int TipoId {get;set;}
+
+        [ForeignKey("TipoId")]
+      
+
+        public string Descripcion {get;set;}
+
+        public string Observaciones {get;set;}
+
     }
 }
