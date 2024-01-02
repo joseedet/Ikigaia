@@ -18,11 +18,7 @@ namespace Dominio
         [DisplayFormat(DataFormatString = "{0:yyyy/MM/dd H:mm tt}", ApplyFormatInEditMode =true)]
         public DateTime Date { get; set; }
 
-        public required int ClienteId {get;set;}
-
-        [ForeignKey("ClienteId")]
-        public required Cliente Cliente { get; set; }
-
+        
         List<DetalleCliente> DetalleClientesPlanin {get;set;}
 
         
